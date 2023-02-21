@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 function HookCounterOne() {
-    const [name, setName] = useState('')
     const [count, setCount] = useState(0)
+    const [name, setName] = useState('')
 
     useEffect(() => {
         document.title = `You Clicked ${count} times`
