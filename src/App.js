@@ -7,12 +7,12 @@ import HookCounterThree from './components/HookCounterThree';
 import HookCounterFour from './components/HookCounterFour';
 import ClassCounterOne from './components/ClassCounterOne';
 import HookCounterOne from './components/HookCounterOne';
+import ClassMouse from './components/ClassMouse';
 
 function App() {
   return (
     <div className="App">
-      <ClassCounterOne />
-      {/* <HookCounterOne /> */}
+      <ClassMouse />
     </div>
   );
 }
