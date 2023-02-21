@@ -8,11 +8,7 @@ class ClassCounterOne extends Component {
             name: ''
         }
     }
-
-    componentDidMount() {
-        document.title = `Clicked ${this.state.count} times`
-    }
-
+    
     componentDidUpdate(prevProps, prevState) {
         console.log('Updating document title');
         if(prevState.count !== this.state.count ){
@@ -20,6 +16,10 @@ class ClassCounterOne extends Component {
             document.title = `Clicked ${this.state.count} times`
         }
     }
+    
+        componentDidMount() {
+            document.title = `Clicked ${this.state.count} times`
+        }
 
     render() {
         return(
