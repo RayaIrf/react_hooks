@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <UserContext.Provider value={'Vishwas'}>
         <ChannelContext.Provider value={'Hissatsuzan'}>
-        <ComponentC />
+          <ComponentC />
         </ChannelContext.Provider>
       </UserContext.Provider>
     </div>
